@@ -51,7 +51,7 @@
 详细的作品提交规范请参考 [CONTRIBUTING.md](CONTRIBUTING.md)。
 
 ## 📄 许可证
-本仓库采用MIT开源协议[LICENSE](LICENSE)。
+本仓库采用MIT开源协议。
 
 ## 🤝 联系我们
 - 竞赛论坛：https://gitcode.com/cann/cann-competitions/discussions
