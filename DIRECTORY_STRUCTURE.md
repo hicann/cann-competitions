@@ -43,7 +43,7 @@ university/
 └── bupt/                   # 北京邮电大学
 ```
 
-## 💼 企业赛事目录 (enterprise/)
+## 💼 行业/区域赛事目录 (enterprise/)
 ```
 enterprise/
 ├── regional/              # 区域赛
@@ -52,7 +52,7 @@ enterprise/
 │       ├── docs/           # 赛题文档
 │       ├── submissions/    # 作品提交
 │       └── resources/      # 开发资源
-└── industry/       # 行业联合赛
+└── industry/       # 行业赛
 ```
 
 ## 📝 作品提交目录结构
@@ -94,7 +94,7 @@ enterprise/
 根据赛事类型和年份在对应目录下查找：
 - 官方赛事：`official/{赛事名称}-{年份}/`
 - 高校赛事：`university/{学校代码}/{赛事名称}-{年份}/`
-- 企业赛事：`enterprise/{企业名称}/{赛事名称}-{年份}/`
+- 行业/区域赛事：`enterprise/industry/{赛事名称}-{年份}/`、`enterprise/regional/{赛事名称}-{年份}/`
 
 ### 2. 提交作品
 在对应赛事的 `submissions/` 目录下创建团队目录，按照统一的命名规范和目录结构提交作品。
