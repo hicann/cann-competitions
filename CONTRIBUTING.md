@@ -30,11 +30,11 @@ team01_nju_image-classification/
 ├── README.md          # 必选：作品详细说明
 ├── code/              # 必选：源代码
 │   ├── src/           # 源码目录
-│   ├── scripts/       # 脚本文件
-│   └── requirements.txt  # 依赖说明
+│   ├── scripts/       #可选： 脚本文件
+│   └── requirements.txt  # 可选：依赖说明
 ├── model/             # 可选：模型文件（大型文件建议使用模型仓库链接）
 ├── results/           # 可选：实验结果、评估报告
-└── docs/              # 可选：额外文档、设计说明
+└── docs/              # 设计文档/说明
 ```
 
 ## 📝 README.md 规范
