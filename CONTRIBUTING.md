@@ -34,7 +34,7 @@ team01_nju_image-classification/
 │   └── requirements.txt  # 可选：依赖说明
 ├── model/             # 可选：模型文件（大型文件建议使用模型仓库链接）
 ├── results/           # 可选：实验结果、评估报告
-└── docs/              # 设计文档/说明
+└── docs/              # 可选：设计文档/说明
 ```
 
 ## 📝 README.md 规范
