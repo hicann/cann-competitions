@@ -10,6 +10,7 @@ cann-competitions/
 ├── official/               # 官方赛事
 ├── university/             # 高校赛事
 ├── enterprise/             # 区域/行业赛事
+├── tasks/                  # 开源课题/社区任务
 ```
 
 ## 🏛️ 官方赛事目录 (official/)
@@ -53,6 +54,17 @@ enterprise/
 │       ├── submissions/    # 作品提交
 │       └── resources/      # 开发资源
 └── industry/       # 行业赛
+```
+
+## 💼 开源课题/社区任务目录 (tasks/)
+```
+tasks/
+├── 01_community-task-2026/  # 2026年社区任务
+│   └── README.md           # 任务介绍
+│   └── docs/               # 任务说明书文档
+│   └── resources/          # 任务相关资源
+│   └── submissions/        # 任务提交
+
 ```
 
 ## 📝 作品提交目录结构
