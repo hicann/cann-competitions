@@ -13,7 +13,7 @@
 **命名规则：**
 
 - `school`：学校代码缩写（如 `nju`、`seu`、`hitsz`、`tju`）
-- `team-name`：团队自定名称，使用短横线分隔（如 `op-pioneers`）
+- `team-name`：团队自定名称，使用短横线分隔（如 `op-pioneers`），若是中文则可以使用拼音代替
 
 **示例：**
 
@@ -22,6 +22,8 @@ preliminary/submissions/nju_op-pioneers/
 preliminary/submissions/hitsz_test-masters/
 final/submissions/nju_op-pioneers/
 ```
+
+> 注意：文件与文件夹命名请使用英文，可以使用拼音来进行代替
 
 预选赛与决赛的提交目录相互独立，晋级决赛的队伍需在 `final/submissions/` 下另建目录。
 
