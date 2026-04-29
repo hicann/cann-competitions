@@ -67,27 +67,27 @@
 ### 4月份发放的任务
 | 任务编号 | 算子名称 |
 |----------|----------|
-| 04-1 | [Equal](./202604/Equal_task_doc.md) |
+| 04-1 | [SlidingTileAttention](./202604/SlidingTileAttention_task_doc.md) |
 | 04-2 | [IsClose](./202604/IsClose_task_doc.md) |
 | 04-3 | [Pdist](./202604/Pdist_task_doc.md) |
 | 04-4 | [AngleV2](./202604/aclnnAngleV2_task_doc.md) |
-| 04-5 | [ForeachAddListV2](./202604/ForeachAddListV2_task_doc.md) |
-| 04-6 | [ForeachAddScalarV2](./202604/ForeachAddScalarV2_task_doc.md) |
-| 04-7 | [ForeachSubListV2](./202604/ForeachSubListV2_task_doc.md) |
-| 04-8 | [Polar](./202604/Polar_task_doc.md) |
-| 04-9 | [Logit](./202604/Logit_task_doc.md) |
-| 04-10 | [MaxUnpool3d](./202604/MaxUnpool3d_task_doc.md) |
-| 04-11 | [MaxUnpool2d](./202604/MaxUnpool2d_task_doc.md) |
-| 04-12 | [median](./202604/median_task_doc.md) |
-| 04-13 | [Sign](./202604/Sign_task_doc.md) |
-| 04-14 | [ForeachMulList](./202604/ForeachMulList_task_doc.md) |
-| 04-15 | [foreach_neg](./202604/foreach_neg_task_doc.md) |
-| 04-16 | [foreach_exp](./202604/foreach_exp_task_doc.md) |
-| 04-17 | [foreach_expm1](./202604/foreach_expm1_task_doc.md) |
-| 04-18 | [Neg](./202604/Neg_task_doc.md) |
-| 04-19 | [ForeachRoundOffNumberV2](./202604/ForeachRoundOffNumberV2_task_doc.md) |
-| 04-20 | [Sleep](./202604/Sleep_task_doc.md) |
-| 04-21 | [SlidingTileAttention](./202604/SlidingTileAttention_task_doc.md) |
+| 04-5 | [Polar](./202604/Polar_task_doc.md) |
+| 04-6 | [Sleep](./202604/Sleep_task_doc.md) |
+| 04-7 | [Equal](./202604/Equal_task_doc.md) |
+| 04-8 | [Logit](./202604/Logit_task_doc.md) |
+| 04-9 | [median](./202604/median_task_doc.md) |
+| 04-10 | [ForeachAddListV2](./202604/ForeachAddListV2_task_doc.md) |
+| 04-11 | [ForeachAddScalarV2](./202604/ForeachAddScalarV2_task_doc.md) |
+| 04-12 | [ForeachSubListV2](./202604/ForeachSubListV2_task_doc.md) |
+| 04-13 | [MaxUnpool3d](./202604/MaxUnpool3d_task_doc.md) |
+| 04-14 | [MaxUnpool2d](./202604/MaxUnpool2d_task_doc.md) |
+| 04-15 | [Sign](./202604/Sign_task_doc.md) |
+| 04-16 | [ForeachMulList](./202604/ForeachMulList_task_doc.md) |
+| 04-17 | [foreach_neg](./202604/foreach_neg_task_doc.md) |
+| 04-18 | [foreach_exp](./202604/foreach_exp_task_doc.md) |
+| 04-19 | [foreach_expm1](./202604/foreach_expm1_task_doc.md) |
+| 04-20 | [Neg](./202604/Neg_task_doc.md) |
+| 04-21 | [ForeachRoundOffNumberV2](./202604/ForeachRoundOffNumberV2_task_doc.md) |
 
 
 ## 参考链接
