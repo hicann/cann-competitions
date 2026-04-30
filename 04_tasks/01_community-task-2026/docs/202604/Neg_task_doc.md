@@ -4,7 +4,7 @@
 
 - **技术标签**：算子开发
 - **适配硬件**：Atlas A2 训练系列产品/Atlas A3 系列产品
-- **开源仓地址**：[https://gitcode.com/cann/ops-neg](https://gitcode.com/cann/ops-neg)
+- **开源仓地址**：[https://gitcode.com/cann/ops-math](https://gitcode.com/cann/ops-math)
 - **CANN 版本**：算子开源仓指定版本
 - **开发语言**：Ascend C
 
@@ -16,7 +16,7 @@
 
 ### 功能实现要求
 
-1. 与原 TBE 算子核心功能完全对齐，支持原算子对应的所有数据类型、数据格式；特别地需要支持int16、uint8类型输入
+1. 与原 TBE 算子核心功能完全对齐，支持原算子对应的所有数据类型、数据格式；特别地需要支持int16、uint8、int64类型输入。说明：当输入类型为 uint8时，其行为和`torch.neg`一致，**`torch.neg(uint8)` 不会返回负数，而是返回一个 `uint8` 类型的张量，其值等于 `256 - x`（对于非零值）或 `0`（对于零值），即发生“回绕”（wrap-around）或“截断”效果，而不是数学上的取负。**
 2. 必须实现算子泛化功能，满足各类合法输入场景的计算需求，验收阶段将采用泛化数据进行验收。
 
 ### 测试标准

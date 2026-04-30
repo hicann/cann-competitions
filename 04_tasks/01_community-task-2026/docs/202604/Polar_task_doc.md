@@ -57,13 +57,9 @@
 
 验收通过后，在昇腾算子开源仓提交 PR 申请，申请将开发完成的算子合入（https://gitcode.com/cann/ops-math/tree/master/experimental/math）。
 
-## TBE 参考实现路径
+## 参考实现路径
 
-本次开发需参考昇腾CANN内置 TBE 算子实现，具体文件路径如下：
-
-1. kernel 实现：`/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/impl/dynamic/`
-2. 算子原型：`/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_proto/inc/`
-3. 算子信息库：`/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/config/ascend910b`
+该算子当前为小算子拼接实现，参考实现为：https://gitcode.com/cann/ops-math/blob/master/math/complex/op_host/op_api/aclnn_polar.cpp
 
 ## 参考资料
 
